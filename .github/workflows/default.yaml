@@ -9,17 +9,17 @@ on:
       - v*
 
 env:
-  DH_IMAGE_BASE_NAME: alvrme/alpine-android-base
-  DH_IMAGE_NAME: alvrme/alpine-android
+  DH_IMAGE_BASE_NAME: ${{ secrets.DOCKERHUB_USER }}/alpine-android-base
+  DH_IMAGE_NAME: ${{ secrets.DOCKERHUB_USER }}/alpine-android
 
-  GHCR_IMAGE_BASE_NAME: alvr/alpine-android-base
-  GHCR_IMAGE_NAME: alvr/alpine-android
+  GHCR_IMAGE_BASE_NAME: ${{ github.repository_owner }}/alpine-android-base
+  GHCR_IMAGE_NAME: ${{ github.repository_owner }}/alpine-android
 
-  QUAY_IMAGE_BASE_NAME: alvr/alpine-android-base
-  QUAY_IMAGE_NAME: alvr/alpine-android
+  QUAY_IMAGE_BASE_NAME: ${{ secrets.QUAY_USER }}/alpine-android-base
+  QUAY_IMAGE_NAME: ${{ secrets.QUAY_USER }}/alpine-android
 
-#   DOCKERHUB_USER: alvrme
-#   QUAY_USER: alvr
+  DOCKERHUB_USER: ${{ secrets.DOCKERHUB_USER }}
+  QUAY_USER: ${{ secrets.QUAY_USER }}
 
   DEFAULT_JDK_VERSION: 11
   LATEST_STABLE_API: 33
