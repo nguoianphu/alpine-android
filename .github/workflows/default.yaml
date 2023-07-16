@@ -13,14 +13,14 @@ env:
   GITHUB_USER: ${{ github.repository_owner }}
   QUAY_USER: ${{ github.repository_owner }}
   
-  DH_IMAGE_BASE_NAME: ${{ env.DOCKERHUB_USER }}/alpine-android-base
-  DH_IMAGE_NAME: ${{ env.DOCKERHUB_USER }}/alpine-android
+  DH_IMAGE_BASE_NAME: ${{ vars.DOCKERHUB_USER }}/alpine-android-base
+  DH_IMAGE_NAME: ${{ vars.DOCKERHUB_USER }}/alpine-android
 
-  GHCR_IMAGE_BASE_NAME: ${{ env.GITHUB_USER }}/alpine-android-base
+  GHCR_IMAGE_BASE_NAME: ${{ vars.GITHUB_USER }}/alpine-android-base
   GHCR_IMAGE_NAME: ${{ env.GITHUB_USER }}/alpine-android
 
-  QUAY_IMAGE_BASE_NAME: ${{ env.QUAY_USER }}/alpine-android-base
-  QUAY_IMAGE_NAME: ${{ env.QUAY_USER }}/alpine-android
+  QUAY_IMAGE_BASE_NAME: ${{ vars.QUAY_USER }}/alpine-android-base
+  QUAY_IMAGE_NAME: ${{ vars.QUAY_USER }}/alpine-android
 
   DEFAULT_JDK_VERSION: 11
   LATEST_STABLE_API: 33
