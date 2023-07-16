@@ -5,24 +5,24 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/alvr/alpine-android/actions/workflows/default.yaml"><img alt="GitHub build status" src="https://img.shields.io/github/actions/workflow/status/alvr/alpine-android/default.yaml?logo=github"/></a>
-  <a href="https://github.com/alvr/alpine-android/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/alvr/alpine-android?logo=android&logoColor=white&color=066da5"/></a>
-  <a href="https://newreleases.io/dockerhub/alvrme/alpine-android"><img alt="Notify new versions" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-get%20notified-%23005cc5"/></a>
+  <a href="https://github.com/nguoianphu/alpine-android/actions/workflows/default.yaml"><img alt="GitHub build status" src="https://img.shields.io/github/actions/workflow/status/nguoianphu/alpine-android/default.yaml?logo=github"/></a>
+  <a href="https://github.com/nguoianphu/alpine-android/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/nguoianphu/alpine-android?logo=android&logoColor=white&color=066da5"/></a>
+  <a href="https://newreleases.io/dockerhub/nguoianphu/alpine-android"><img alt="Notify new versions" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-get%20notified-%23005cc5"/></a>
 </p>
 
 <p align="center">
-  <img alt="Docker Alpine Android Base Pulls" src="https://img.shields.io/docker/pulls/alvrme/alpine-android-base?label=base%20pulls&logo=docker&logoColor=white&color=066da5"/>
-  <img alt="Docker Alpine Android Main Pulls" src="https://img.shields.io/docker/pulls/alvrme/alpine-android?label=main%20pulls&logo=docker&logoColor=white&color=066da5"/>
+  <img alt="Docker Alpine Android Base Pulls" src="https://img.shields.io/docker/pulls/nguoianphu/alpine-android-base?label=base%20pulls&logo=docker&logoColor=white&color=066da5"/>
+  <img alt="Docker Alpine Android Main Pulls" src="https://img.shields.io/docker/pulls/nguoianphu/alpine-android?label=main%20pulls&logo=docker&logoColor=white&color=066da5"/>
 </p>
 
 <p align="center">
-  <a href="https://hub.docker.com/r/alvrme/alpine-android-base"><img alt="DockerHub Link" src="https://img.shields.io/badge/base%20image-hub-%23066da5?logo=docker&logoColor=white"/></a>
+  <a href="https://hub.docker.com/r/nguoianphu/alpine-android-base"><img alt="DockerHub Link" src="https://img.shields.io/badge/base%20image-hub-%23066da5?logo=docker&logoColor=white"/></a>
   <a href="https://github.com/users/alvr/packages/container/package/alpine-android-base"><img alt="GitHub Container Registry Link" src="https://img.shields.io/badge/base%20image-ghcr-black?logo=github&logoColor=white"/></a>
   <a href="https://quay.io/repository/alvr/alpine-android-base"><img alt="Quay Link" src="https://img.shields.io/badge/base%20image-quay-%23D71E00?logo=redhat&logoColor=white"/></a>
 </p>
 
 <p align="center">
-  <a href="https://hub.docker.com/r/alvrme/alpine-android"><img alt="DockerHub Link" src="https://img.shields.io/badge/main%20image-hub-%23066da5?logo=docker&logoColor=white"/></a>
+  <a href="https://hub.docker.com/r/nguoianphu/alpine-android"><img alt="DockerHub Link" src="https://img.shields.io/badge/main%20image-hub-%23066da5?logo=docker&logoColor=white"/></a>
   <a href="https://github.com/users/alvr/packages/container/package/alpine-android"><img alt="GitHub Container Registry Link" src="https://img.shields.io/badge/main%20image-ghcr-black?logo=github&logoColor=white"/></a>
   <a href="https://quay.io/repository/alvr/alpine-android"><img alt="Quay Link" src="https://img.shields.io/badge/main%20image-quay-%23D71E00?logo=redhat&logoColor=white"/></a>
 </p>
@@ -70,7 +70,7 @@ Since January 1st 2021, new versions now include the date it was published so is
 * `MM` is the month of the year of the release version with leading zeros.
 * `DD` is the day of the month of the release version with leading zeros.
 
-A valid example would be `android-30-jdk11-v2021.01.01`. [Here](https://github.com/alvr/alpine-android/releases) are listed all the versions.
+A valid example would be `android-30-jdk11-v2021.01.01`. [Here](https://github.com/nguoianphu/alpine-android/releases) are listed all the versions.
 
 > :memo: Versioning is not available for `alpine-android-base`.
 
@@ -79,7 +79,7 @@ A valid example would be `android-30-jdk11-v2021.01.01`. [Here](https://github.c
 <details>
   <summary>See content of Android Base image</summary>
   
-![Docker Android Base JDK8 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android-base/jdk8?label=jdk8%20image%20size) ![Docker Android Base JDK11 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android-base/jdk11?label=jdk11%20image%20size) ![Docker Android Base JDK17 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android-base/jdk17?label=jdk17%20image%20size)
+![Docker Android Base JDK8 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android-base/jdk8?label=jdk8%20image%20size) ![Docker Android Base JDK11 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android-base/jdk11?label=jdk11%20image%20size) ![Docker Android Base JDK17 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android-base/jdk17?label=jdk17%20image%20size)
 
 | Path                      | Version | Description                         | Location                   |
 |---------------------------|---------|-------------------------------------|----------------------------|
@@ -89,7 +89,7 @@ A valid example would be `android-30-jdk11-v2021.01.01`. [Here](https://github.c
 
 ## Extend from Alpine Android Base
 
-Use the [following configuration](https://github.com/alvr/alpine-android#use-as-base-image) in your Dockerfile. After that, you can install any Android package [available](https://gist.github.com/alvr/8db356880447d2c4bbe948ea92d22c23). To install an Android package, include the following line on your Dockerfile:
+Use the [following configuration](https://github.com/nguoianphu/alpine-android#use-as-base-image) in your Dockerfile. After that, you can install any Android package [available](https://gist.github.com/alvr/8db356880447d2c4bbe948ea92d22c23). To install an Android package, include the following line on your Dockerfile:
 
 ```dockerfile
 RUN sdkmanager <list-of-packages>
@@ -106,7 +106,7 @@ RUN apk add --no-cache <list-of-packages>
 <details>
   <summary>See content of Android 9 (Pie) image</summary>
 
-![Docker Android 9 JDK8 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-28-jdk8?label=jdk8%20image%20size) ![Docker Android 9 JDK11 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-28-jdk11?label=jdk11%20image%20size) ![Docker Android 9 JDK17 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-28-jdk17?label=jdk17%20image%20size)
+![Docker Android 9 JDK8 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-28-jdk8?label=jdk8%20image%20size) ![Docker Android 9 JDK11 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-28-jdk11?label=jdk11%20image%20size) ![Docker Android 9 JDK17 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-28-jdk17?label=jdk17%20image%20size)
 
 | Path                      | Version | Description                         | Location                   |
 |---------------------------|---------|-------------------------------------|----------------------------|
@@ -120,7 +120,7 @@ RUN apk add --no-cache <list-of-packages>
 <details>
   <summary>See content of Android 10 (Q) image</summary>
 
-![Docker Android 10 JDK8 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-29-jdk8?label=jdk8%20image%20size) ![Docker Android 10 JDK11 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-29-jdk11?label=jdk11%20image%20size) ![Docker Android 10 JDK17 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-29-jdk17?label=jdk17%20image%20size)
+![Docker Android 10 JDK8 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-29-jdk8?label=jdk8%20image%20size) ![Docker Android 10 JDK11 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-29-jdk11?label=jdk11%20image%20size) ![Docker Android 10 JDK17 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-29-jdk17?label=jdk17%20image%20size)
 
 | Path                      | Version | Description                         | Location                   |
 |---------------------------|---------|-------------------------------------|----------------------------|
@@ -134,7 +134,7 @@ RUN apk add --no-cache <list-of-packages>
 <details>
   <summary>See content of Android 11 (R) image</summary>
 
-![Docker Android 11 JDK8 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-30-jdk8?label=jdk8%20image%20size) ![Docker Android 11 JDK11 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-30-jdk11?label=jdk11%20image%20size) ![Docker Android 11 JDK17 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-30-jdk17?label=jdk17%20image%20size)
+![Docker Android 11 JDK8 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-30-jdk8?label=jdk8%20image%20size) ![Docker Android 11 JDK11 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-30-jdk11?label=jdk11%20image%20size) ![Docker Android 11 JDK17 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-30-jdk17?label=jdk17%20image%20size)
 
 | Path                      | Version | Description                         | Location                   |
 |---------------------------|---------|-------------------------------------|----------------------------|
@@ -148,7 +148,7 @@ RUN apk add --no-cache <list-of-packages>
 <details>
   <summary>See content of Android 12 (S) image</summary>
 
-![Docker Android 12 JDK8 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-31-jdk8?label=jdk8%20image%20size) ![Docker Android 12 JDK11 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-31-jdk11?label=jdk11%20image%20size) ![Docker Android 12 JDK17 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-31-jdk17?label=jdk17%20image%20size)
+![Docker Android 12 JDK8 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-31-jdk8?label=jdk8%20image%20size) ![Docker Android 12 JDK11 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-31-jdk11?label=jdk11%20image%20size) ![Docker Android 12 JDK17 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-31-jdk17?label=jdk17%20image%20size)
 
 | Path                      | Version | Description                         | Location                   |
 |---------------------------|---------|-------------------------------------|----------------------------|
@@ -162,7 +162,7 @@ RUN apk add --no-cache <list-of-packages>
 <details>
   <summary>See content of Android 12L image</summary>
 
-![Docker Android 12L JDK8 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-32-jdk8?label=jdk8%20image%20size) ![Docker Android 12L JDK11 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-32-jdk11?label=jdk11%20image%20size) ![Docker Android 12L JDK17 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-32-jdk17?label=jdk17%20image%20size)
+![Docker Android 12L JDK8 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-32-jdk8?label=jdk8%20image%20size) ![Docker Android 12L JDK11 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-32-jdk11?label=jdk11%20image%20size) ![Docker Android 12L JDK17 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-32-jdk17?label=jdk17%20image%20size)
 
 | Path                      | Version | Description                         | Location                   |
 |---------------------------|---------|-------------------------------------|----------------------------|
@@ -176,7 +176,7 @@ RUN apk add --no-cache <list-of-packages>
 <details>
   <summary>See content of Android 13 (T) image</summary>
 
-![Docker Android 13 JDK8 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-33-jdk8?label=jdk8%20image%20size) ![Docker Android 13 JDK11 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-33-jdk11?label=jdk11%20image%20size) ![Docker Android 13 JDK17 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-33-jdk17?label=jdk17%20image%20size)
+![Docker Android 13 JDK8 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-33-jdk8?label=jdk8%20image%20size) ![Docker Android 13 JDK11 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-33-jdk11?label=jdk11%20image%20size) ![Docker Android 13 JDK17 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-33-jdk17?label=jdk17%20image%20size)
 
 | Path                      | Version | Description                         | Location                   |
 |---------------------------|---------|-------------------------------------|----------------------------|
@@ -191,7 +191,7 @@ RUN apk add --no-cache <list-of-packages>
 <details>
   <summary>See content of Android 14 (U) image</summary>
 
-![Docker Android 14 JDK8 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-34-jdk8?label=jdk8%20image%20size) ![Docker Android 14 JDK11 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-34-jdk11?label=jdk11%20image%20size) ![Docker Android 14 JDK17 Size](https://img.shields.io/docker/image-size/alvrme/alpine-android/android-34-jdk17?label=jdk17%20image%20size)
+![Docker Android 14 JDK8 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-34-jdk8?label=jdk8%20image%20size) ![Docker Android 14 JDK11 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-34-jdk11?label=jdk11%20image%20size) ![Docker Android 14 JDK17 Size](https://img.shields.io/docker/image-size/nguoianphu/alpine-android/android-34-jdk17?label=jdk17%20image%20size)
 
 | Path                             | Version    | Description                         | Location                          |
 |----------------------------------|------------|-------------------------------------|-----------------------------------|
@@ -207,7 +207,7 @@ RUN apk add --no-cache <list-of-packages>
 
 Because of the [DockerHub rate limits](https://www.docker.com/increase-rate-limits), the image is now in three different containers registries:
 
-* DockerHub: [Base Image](https://hub.docker.com/repository/docker/alvrme/alpine-android-base/tags) and [Android Image](https://hub.docker.com/repository/docker/alvrme/alpine-android/tags).
+* DockerHub: [Base Image](https://hub.docker.com/repository/docker/nguoianphu/alpine-android-base/tags) and [Android Image](https://hub.docker.com/repository/docker/nguoianphu/alpine-android/tags).
 * GitHub Container Registry: [Base Image](https://github.com/users/alvr/packages/container/alpine-android-base/versions) and [Android Image](https://github.com/users/alvr/packages/container/alpine-android/versions).
 * Quay: [Base Image](https://quay.io/repository/alvr/alpine-android-base?tab=tags) and [Android Image](https://quay.io/repository/alvr/alpine-android?tab=tags).
 
@@ -220,11 +220,11 @@ Replace `<tag>` with one of the current [available tags](#tagging).
 You can pull a specific Docker image from DockerHub with the following command:
 
 ```bash
-docker pull alvrme/alpine-android-base:<tag>
+docker pull nguoianphu/alpine-android-base:<tag>
 ```
 
 ```bash
-docker pull alvrme/alpine-android:<tag>
+docker pull nguoianphu/alpine-android:<tag>
 ```
 
 #### GHCR pulling
@@ -260,11 +260,11 @@ Replace `<tag>` with one of the current [available tags](#tagging).
 You can use the Docker images from DockerHub as a base image for creating a new one:
 
 ```Dockerfile
-FROM alvrme/alpine-android-base:<tag>
+FROM nguoianphu/alpine-android-base:<tag>
 ```
 
 ```Dockerfile
-FROM alvrme/alpine-android:<tag>
+FROM nguoianphu/alpine-android:<tag>
 ```
 
 #### GHCR base image
@@ -302,11 +302,11 @@ The command below will create a new container based on the specific image. It wi
 Run the container from the DockerHub image:
 
 ```bash
-docker run --rm -it alvrme/alpine-android-base:<tag>
+docker run --rm -it nguoianphu/alpine-android-base:<tag>
 ```
 
 ```bash
-docker run --rm -it alvrme/alpine-android:<tag>
+docker run --rm -it nguoianphu/alpine-android:<tag>
 ```
 
 #### GHCR run container
