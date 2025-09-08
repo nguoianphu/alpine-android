@@ -106,7 +106,7 @@ jobs:
     name: Build Alpine Android Image
     needs: [build_base_images]
     runs-on: ubuntu-latest
-    if: env.SHOULD_RUN_JOB == 'true'
+    if: ${{ env.SHOULD_RUN_JOB }} == 'true'
     strategy:
       matrix:
         android-api: [28, 29, 30, 31, 32, 33, 34, 35, 36]
