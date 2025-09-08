@@ -107,7 +107,7 @@ jobs:
     strategy:
       matrix:
         android-api: [28, 29, 30, 31, 32, 33, 34, 35, 36]
-        jdk: [8, 11, 17, 21]
+        jdk: [8, 11, 17]
 
     steps:
       - name: Checkout
