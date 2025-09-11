@@ -1,6 +1,7 @@
 ARG JDK_VERSION
 
-FROM bellsoft/liberica-openjdk-alpine:${JDK_VERSION}
+FROM ghcr.io/bell-sw/liberica-openjdk-alpine:${JDK_VERSION}-cds
+# FROM bellsoft/liberica-openjdk-alpine:${JDK_VERSION}
 LABEL maintainer="Álvaro Salcedo García <alvaro@alvr.dev>"
 
 ARG CMDLINE_VERSION
