@@ -1,7 +1,7 @@
 ARG JDK_VERSION
 
-FROM nguoianphu/alpine-android-base:jdk${JDK_VERSION}
-# FROM ghcr.io/nguoianphu/alpine-android-base:jdk${JDK_VERSION}
+# FROM nguoianphu/alpine-android-base:jdk${JDK_VERSION}
+FROM ghcr.io/nguoianphu/alpine-android-base:jdk${JDK_VERSION}
 LABEL maintainer="Álvaro Salcedo García <alvaro@alvr.dev>"
 
 ARG BUILD_TOOLS
